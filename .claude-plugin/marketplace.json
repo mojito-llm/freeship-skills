@@ -1,0 +1,57 @@
+{
+  "name": "freeship-skills",
+  "owner": {
+    "name": "FreeShip Team",
+    "email": "larry.koo711@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for AIGC Film Production Factory",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "common-skills",
+      "description": "公共工具技能 - 通用的辅助工具,如多语言问候、文本处理、格式转换等",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./sayhello"
+      ]
+    },
+    {
+      "name": "parsing-skills",
+      "description": "解析技能 - 视频平台解析、素材提取、元数据分析等",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    },
+    {
+      "name": "writing-skills",
+      "description": "编剧技能 - AI 脚本生成、剧本优化、故事板创建、文案策划等",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    },
+    {
+      "name": "shooting-skills",
+      "description": "拍摄技能 - 镜头规划、场景设计、拍摄指导、素材管理等",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    },
+    {
+      "name": "production-skills",
+      "description": "制片技能 - 视频剪辑、特效合成、配音配乐、字幕生成、导出发布等",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    },
+    {
+      "name": "llm-skills",
+      "description": "大模型调用技能 - LLM API 调用、提示词工程、多模型协同、结果处理等",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    }
+  ]
+}
