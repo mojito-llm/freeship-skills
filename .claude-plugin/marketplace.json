@@ -23,7 +23,11 @@
       "description": "解析技能 - 视频平台解析、素材提取、元数据分析等",
       "source": "./",
       "strict": false,
-      "skills": []
+      "skills": [
+        "./parsing-skills/plan-video",
+        "./parsing-skills/parse-video",
+        "./parsing-skills/rip-video"
+      ]
     },
     {
       "name": "writing-skills",
